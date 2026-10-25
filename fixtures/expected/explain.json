@@ -1,0 +1,168 @@
+{
+  "input_hash": "66e963da02c8e712a00717a97436019681a3198c66eca62859130f7adf97fad6",
+  "input_hash_matches": true,
+  "figure": {
+    "tool": "totals",
+    "query": {
+      "group_by": "month"
+    },
+    "group": {
+      "key": "2026-01"
+    },
+    "field": "total",
+    "currency": "EUR",
+    "value": "2119.11"
+  },
+  "sums": [
+    {
+      "currency": "EUR",
+      "sum": "2119.11",
+      "count": 6
+    }
+  ],
+  "sum_matches_figure": true,
+  "rows": [
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 1,
+      "date": "2026-01-02",
+      "amount": "2400.00",
+      "currency": "EUR",
+      "description": "Invoice 2026-001 paid",
+      "merchant": "Client Alpha Ltd",
+      "category": "Income",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-02",
+        "Description": "Invoice 2026-001 paid",
+        "Merchant": "Client Alpha Ltd",
+        "Amount": "2400.00",
+        "Currency": "EUR",
+        "Category": "Income"
+      }
+    },
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 2,
+      "date": "2026-01-03",
+      "amount": "-180.00",
+      "currency": "EUR",
+      "description": "Coworking desk January",
+      "merchant": "Lumen Coworking",
+      "category": "Rent",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-03",
+        "Description": "Coworking desk January",
+        "Merchant": "Lumen Coworking",
+        "Amount": "-180.00",
+        "Currency": "EUR",
+        "Category": "Rent"
+      }
+    },
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 3,
+      "date": "2026-01-05",
+      "amount": "-24.99",
+      "currency": "EUR",
+      "description": "Hosting plan, monthly",
+      "merchant": "Pixelcloud Hosting",
+      "category": "Software",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-05",
+        "Description": "Hosting plan, monthly",
+        "Merchant": "Pixelcloud Hosting",
+        "Amount": "-24.99",
+        "Currency": "EUR",
+        "Category": "Software"
+      }
+    },
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 4,
+      "date": "2026-01-09",
+      "amount": "-63.40",
+      "currency": "EUR",
+      "description": "Groceries",
+      "merchant": "Greenleaf Grocers",
+      "category": "Groceries",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-09",
+        "Description": "Groceries",
+        "Merchant": "Greenleaf Grocers",
+        "Amount": "-63.40",
+        "Currency": "EUR",
+        "Category": "Groceries"
+      }
+    },
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 5,
+      "date": "2026-01-15",
+      "amount": "-8.00",
+      "currency": "EUR",
+      "description": "Notebook app \"Pro\" plan",
+      "merchant": "Quill Notes",
+      "category": "Software",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-15",
+        "Description": "Notebook app \"Pro\" plan",
+        "Merchant": "Quill Notes",
+        "Amount": "-8.00",
+        "Currency": "EUR",
+        "Category": "Software"
+      }
+    },
+    {
+      "file": "alder-bank-current.csv",
+      "row_number": 6,
+      "date": "2026-01-28",
+      "amount": "-4.50",
+      "currency": "EUR",
+      "description": "Account fee",
+      "merchant": null,
+      "category": "Bank fees",
+      "account": null,
+      "raw": {
+        "Date": "2026-01-28",
+        "Description": "Account fee",
+        "Merchant": "",
+        "Amount": "-4.50",
+        "Currency": "EUR",
+        "Category": "Bank fees"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "alder-bank-current.csv",
+      "source_sha256": "912c6cbbdceb136f0fcce2706d8e78d9d0869ef59697de814150ea75b42bb723",
+      "mapping_id": "map_af85bc38848d5cce",
+      "mapping": {
+        "version": 1,
+        "header_sha256": "fe03816cb5ec315adc7fc3ded913315cfb673497d80fe7f5dc2d9feafabbe8f3",
+        "delimiter": ",",
+        "encoding": "utf-8",
+        "date_format": "YYYY-MM-DD",
+        "decimal_separator": ".",
+        "columns": {
+          "date": "Date",
+          "amount": "Amount",
+          "debit": null,
+          "credit": null,
+          "currency": "Currency",
+          "description": "Description",
+          "merchant": "Merchant",
+          "category": "Category",
+          "account": null
+        },
+        "default_currency": null,
+        "default_account": null
+      }
+    }
+  ]
+}

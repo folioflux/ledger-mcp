@@ -1,0 +1,266 @@
+[
+  {
+    "file": "alder-bank-current.csv",
+    "source_sha256": "912c6cbbdceb136f0fcce2706d8e78d9d0869ef59697de814150ea75b42bb723",
+    "encoding": "utf-8",
+    "bom": true,
+    "header": [
+      "Date",
+      "Description",
+      "Merchant",
+      "Amount",
+      "Currency",
+      "Category"
+    ],
+    "header_sha256": "fe03816cb5ec315adc7fc3ded913315cfb673497d80fe7f5dc2d9feafabbe8f3",
+    "mapping_source": "detected",
+    "overrides_applied": false,
+    "data_row_count": 18,
+    "sample": [
+      {
+        "Date": "2026-01-02",
+        "Description": "Invoice 2026-001 paid",
+        "Merchant": "Client Alpha Ltd",
+        "Amount": "2400.00",
+        "Currency": "EUR",
+        "Category": "Income"
+      },
+      {
+        "Date": "2026-01-03",
+        "Description": "Coworking desk January",
+        "Merchant": "Lumen Coworking",
+        "Amount": "-180.00",
+        "Currency": "EUR",
+        "Category": "Rent"
+      },
+      {
+        "Date": "2026-01-05",
+        "Description": "Hosting plan, monthly",
+        "Merchant": "Pixelcloud Hosting",
+        "Amount": "-24.99",
+        "Currency": "EUR",
+        "Category": "Software"
+      }
+    ],
+    "status": "ok",
+    "mapping": {
+      "version": 1,
+      "header_sha256": "fe03816cb5ec315adc7fc3ded913315cfb673497d80fe7f5dc2d9feafabbe8f3",
+      "delimiter": ",",
+      "encoding": "utf-8",
+      "date_format": "YYYY-MM-DD",
+      "decimal_separator": ".",
+      "columns": {
+        "date": "Date",
+        "amount": "Amount",
+        "debit": null,
+        "credit": null,
+        "currency": "Currency",
+        "description": "Description",
+        "merchant": "Merchant",
+        "category": "Category",
+        "account": null
+      },
+      "default_currency": null,
+      "default_account": null
+    },
+    "mapping_id": "map_af85bc38848d5cce",
+    "issues": [],
+    "row_errors": []
+  },
+  {
+    "file": "birch-card.csv",
+    "source_sha256": "ce6a1566d0771cad39db67396edecea4228b8364b06c398d7616d03b93d465fc",
+    "encoding": "utf-8",
+    "bom": false,
+    "header": [
+      "Transaction Date",
+      "Payee",
+      "Details",
+      "Money Out",
+      "Money In",
+      "Currency",
+      "Category"
+    ],
+    "header_sha256": "2187db1aa7e54b75e424f318bdcb50c02caff6418a6e8215e6dbe15959c48d01",
+    "mapping_source": "detected",
+    "overrides_applied": false,
+    "data_row_count": 6,
+    "sample": [
+      {
+        "Transaction Date": "04/01/2026",
+        "Payee": "Pixelcloud Hosting",
+        "Details": "Domain renewal",
+        "Money Out": "15.00",
+        "Money In": "",
+        "Currency": "GBP",
+        "Category": "Software"
+      },
+      {
+        "Transaction Date": "13/01/2026",
+        "Payee": "Client Gamma Ltd",
+        "Details": "Invoice G-17",
+        "Money Out": "",
+        "Money In": "1,250.00",
+        "Currency": "GBP",
+        "Category": "Income"
+      },
+      {
+        "Transaction Date": "21/01/2026",
+        "Payee": "Harbor Coffee",
+        "Details": "Team coffee",
+        "Money Out": "11.60",
+        "Money In": "",
+        "Currency": "GBP",
+        "Category": ""
+      }
+    ],
+    "status": "ok",
+    "mapping": {
+      "version": 1,
+      "header_sha256": "2187db1aa7e54b75e424f318bdcb50c02caff6418a6e8215e6dbe15959c48d01",
+      "delimiter": ",",
+      "encoding": "utf-8",
+      "date_format": "DD/MM/YYYY",
+      "decimal_separator": ".",
+      "columns": {
+        "date": "Transaction Date",
+        "amount": null,
+        "debit": "Money Out",
+        "credit": "Money In",
+        "currency": "Currency",
+        "description": "Details",
+        "merchant": "Payee",
+        "category": "Category",
+        "account": null
+      },
+      "default_currency": null,
+      "default_account": null
+    },
+    "mapping_id": "map_1f038e8ebb3dac29",
+    "issues": [],
+    "row_errors": []
+  },
+  {
+    "file": "cedar-savings.csv",
+    "source_sha256": "32e8476d950212db1e347a4a40ab2e1fe9aa6ed142b5d492bf549d3a4832d3b9",
+    "encoding": "windows-1252",
+    "bom": false,
+    "header": [
+      "Date",
+      "Text",
+      "Amount",
+      "Currency",
+      "Account"
+    ],
+    "header_sha256": "d2bcfe62ca8e25879d5fd1201bb1b9f61f5922f682142ddaaad4a892b3b228d7",
+    "mapping_source": "detected",
+    "overrides_applied": false,
+    "data_row_count": 6,
+    "sample": [
+      {
+        "Date": "05.01.2026",
+        "Text": "Monthly transfer in",
+        "Amount": "1.000,00",
+        "Currency": "PLN",
+        "Account": "Savings"
+      },
+      {
+        "Date": "31.01.2026",
+        "Text": "Interest",
+        "Amount": "3,27",
+        "Currency": "PLN",
+        "Account": "Savings"
+      },
+      {
+        "Date": "05.02.2026",
+        "Text": "Monthly transfer in",
+        "Amount": "1.000,00",
+        "Currency": "PLN",
+        "Account": "Savings"
+      }
+    ],
+    "status": "ok",
+    "mapping": {
+      "version": 1,
+      "header_sha256": "d2bcfe62ca8e25879d5fd1201bb1b9f61f5922f682142ddaaad4a892b3b228d7",
+      "delimiter": ";",
+      "encoding": "windows-1252",
+      "date_format": "DD.MM.YYYY",
+      "decimal_separator": ",",
+      "columns": {
+        "date": "Date",
+        "amount": "Amount",
+        "debit": null,
+        "credit": null,
+        "currency": "Currency",
+        "description": "Text",
+        "merchant": null,
+        "category": null,
+        "account": "Account"
+      },
+      "default_currency": null,
+      "default_account": null
+    },
+    "mapping_id": "map_9606ddf4a78c2639",
+    "issues": [],
+    "row_errors": []
+  },
+  {
+    "file": "needs-mapping/dogwood-ambiguous-dates.csv",
+    "source_sha256": "9001d8b7f35d659ce51835dd4826dba8ec210f86f221c1d6dfc68a55011e3a13",
+    "encoding": "utf-8",
+    "bom": false,
+    "header": [
+      "Date",
+      "Description",
+      "Amount"
+    ],
+    "header_sha256": "099dd358ef7a4a1825e5737dd69b52083d70967bccf80c4cfed0e2b96419bef9",
+    "mapping_source": "detected",
+    "overrides_applied": true,
+    "data_row_count": 3,
+    "sample": [
+      {
+        "Date": "01/02/2026",
+        "Description": "Opening deposit",
+        "Amount": "500.00"
+      },
+      {
+        "Date": "03/02/2026",
+        "Description": "Stationery",
+        "Amount": "-12.75"
+      },
+      {
+        "Date": "11/02/2026",
+        "Description": "Printer ink",
+        "Amount": "-29.90"
+      }
+    ],
+    "status": "ok",
+    "mapping": {
+      "version": 1,
+      "header_sha256": "099dd358ef7a4a1825e5737dd69b52083d70967bccf80c4cfed0e2b96419bef9",
+      "delimiter": ",",
+      "encoding": "utf-8",
+      "date_format": "DD/MM/YYYY",
+      "decimal_separator": ".",
+      "columns": {
+        "date": "Date",
+        "amount": "Amount",
+        "debit": null,
+        "credit": null,
+        "currency": null,
+        "description": "Description",
+        "merchant": null,
+        "category": null,
+        "account": null
+      },
+      "default_currency": "EUR",
+      "default_account": null
+    },
+    "mapping_id": "map_9471b53da84971f8",
+    "issues": [],
+    "row_errors": []
+  }
+]

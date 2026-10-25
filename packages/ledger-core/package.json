@@ -1,0 +1,45 @@
+{
+  "name": "@folioflux/ledger-core",
+  "version": "0.1.0",
+  "description": "Pure, deterministic functions for reading CSV bank exports: column detection, decimal-safe totals, stable ordering and input hashing.",
+  "license": "MIT",
+  "author": "FolioFlux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folioflux/ledger-mcp.git",
+    "directory": "packages/ledger-core"
+  },
+  "homepage": "https://github.com/folioflux/ledger-mcp/tree/main/packages/ledger-core#readme",
+  "keywords": [
+    "csv",
+    "ledger",
+    "bank-statements",
+    "deterministic",
+    "decimal",
+    "provenance"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@folioflux/transaction-schema": "workspace:^",
+    "@noble/hashes": "^2.4.0",
+    "decimal.js": "^10.6.0"
+  }
+}
