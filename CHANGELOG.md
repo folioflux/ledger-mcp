@@ -4,6 +4,14 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- Security policy, contributing guide, code of conduct and issue templates.
+
+### Changed
+
+- README: CI and license badges, contributing and contact sections, and the standard disclaimer.
+
 ## [0.1.0] - 2026-10-25
 
 ### Added

@@ -5,3 +5,4 @@ pnpm-lock.yaml
 fixtures/**/*.csv
 fixtures/expected
 packages/transaction-schema/src/generated.ts
+CODE_OF_CONDUCT.md
