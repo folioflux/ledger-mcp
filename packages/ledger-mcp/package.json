@@ -1,0 +1,52 @@
+{
+  "name": "@folioflux/ledger-mcp",
+  "version": "0.1.0",
+  "description": "Local, read-only MCP server with deterministic finance tools over your own CSV bank exports.",
+  "license": "MIT",
+  "author": "FolioFlux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folioflux/ledger-mcp.git",
+    "directory": "packages/ledger-mcp"
+  },
+  "homepage": "https://github.com/folioflux/ledger-mcp#readme",
+  "bugs": "https://github.com/folioflux/ledger-mcp/issues",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "csv",
+    "bank-statements",
+    "ledger",
+    "deterministic"
+  ],
+  "type": "module",
+  "bin": {
+    "ledger-mcp": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -b && chmod +x dist/cli.js"
+  },
+  "dependencies": {
+    "@folioflux/ledger-core": "workspace:^",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.4.0"
+  }
+}
