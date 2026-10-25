@@ -1,0 +1,247 @@
+{
+  "input_hash": "66e963da02c8e712a00717a97436019681a3198c66eca62859130f7adf97fad6",
+  "query": {
+    "from": "2026-01-01",
+    "to": "2026-03-31"
+  },
+  "months": [
+    {
+      "month": "2026-01",
+      "currency": "EUR",
+      "inflow": "2400.00",
+      "outflow": "-280.89",
+      "net": "2119.11",
+      "count": 6,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDEifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-01",
+      "currency": "GBP",
+      "inflow": "1250.00",
+      "outflow": "-26.60",
+      "net": "1223.40",
+      "count": 3,
+      "sources": [
+        {
+          "file": "birch-card.csv",
+          "rows": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDEifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-01",
+      "currency": "PLN",
+      "inflow": "1003.27",
+      "outflow": "0.00",
+      "net": "1003.27",
+      "count": 2,
+      "sources": [
+        {
+          "file": "cedar-savings.csv",
+          "rows": [
+            1,
+            2
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDEifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMSJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-02",
+      "currency": "EUR",
+      "inflow": "2912.30",
+      "outflow": "-307.34",
+      "net": "2604.96",
+      "count": 10,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "file": "needs-mapping/dogwood-ambiguous-dates.csv",
+          "rows": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDIifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-02",
+      "currency": "GBP",
+      "inflow": "85.00",
+      "outflow": "-1092.40",
+      "net": "-1007.40",
+      "count": 3,
+      "sources": [
+        {
+          "file": "birch-card.csv",
+          "rows": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDIifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-02",
+      "currency": "PLN",
+      "inflow": "1004.05",
+      "outflow": "-150.00",
+      "net": "854.05",
+      "count": 3,
+      "sources": [
+        {
+          "file": "cedar-savings.csv",
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDIifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMiJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-03",
+      "currency": "EUR",
+      "inflow": "1750.50",
+      "outflow": "-280.64",
+      "net": "1469.86",
+      "count": 5,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMyJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDMifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMyJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    },
+    {
+      "month": "2026-03",
+      "currency": "PLN",
+      "inflow": "1000.00",
+      "outflow": "0.00",
+      "net": "1000.00",
+      "count": 1,
+      "sources": [
+        {
+          "file": "cedar-savings.csv",
+          "rows": [
+            6
+          ]
+        }
+      ],
+      "refs": {
+        "inflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6ImluZmxvdyIsIm1vbnRoIjoiMjAyNi0wMyJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ",
+        "outflow": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im91dGZsb3ciLCJtb250aCI6IjIwMjYtMDMifSwicXVlcnkiOnsiZnJvbSI6IjIwMjYtMDEtMDEiLCJ0byI6IjIwMjYtMDMtMzEifSwidG9vbCI6ImNhc2hmbG93In0",
+        "net": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6Im5ldCIsIm1vbnRoIjoiMjAyNi0wMyJ9LCJxdWVyeSI6eyJmcm9tIjoiMjAyNi0wMS0wMSIsInRvIjoiMjAyNi0wMy0zMSJ9LCJ0b29sIjoiY2FzaGZsb3cifQ"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "alder-bank-current.csv",
+      "source_sha256": "912c6cbbdceb136f0fcce2706d8e78d9d0869ef59697de814150ea75b42bb723",
+      "status": "ok",
+      "mapping_id": "map_af85bc38848d5cce",
+      "transactions": 18,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "birch-card.csv",
+      "source_sha256": "ce6a1566d0771cad39db67396edecea4228b8364b06c398d7616d03b93d465fc",
+      "status": "ok",
+      "mapping_id": "map_1f038e8ebb3dac29",
+      "transactions": 6,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "cedar-savings.csv",
+      "source_sha256": "32e8476d950212db1e347a4a40ab2e1fe9aa6ed142b5d492bf549d3a4832d3b9",
+      "status": "ok",
+      "mapping_id": "map_9606ddf4a78c2639",
+      "transactions": 6,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "needs-mapping/dogwood-ambiguous-dates.csv",
+      "source_sha256": "9001d8b7f35d659ce51835dd4826dba8ec210f86f221c1d6dfc68a55011e3a13",
+      "status": "ok",
+      "mapping_id": "map_9471b53da84971f8",
+      "transactions": 3,
+      "row_errors": 0,
+      "message": null
+    }
+  ],
+  "row_errors": [],
+  "row_error_count": 0
+}

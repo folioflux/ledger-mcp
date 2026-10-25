@@ -1,0 +1,19 @@
+﻿Date,Description,Merchant,Amount,Currency,Category
+2026-01-02,Invoice 2026-001 paid,Client Alpha Ltd,2400.00,EUR,Income
+2026-01-03,Coworking desk January,Lumen Coworking,-180.00,EUR,Rent
+2026-01-05,"Hosting plan, monthly",Pixelcloud Hosting,-24.99,EUR,Software
+2026-01-09,Groceries,Greenleaf Grocers,-63.40,EUR,Groceries
+2026-01-15,"Notebook app ""Pro"" plan",Quill Notes,-8.00,EUR,Software
+2026-01-28,Account fee,,-4.50,EUR,Bank fees
+2026-02-02,Invoice 2026-002 paid,Client Alpha Ltd,2400.00,EUR,Income
+2026-02-03,Coworking desk February,Lumen Coworking,-180.00,EUR,Rent
+2026-02-05,"Hosting plan, monthly",Pixelcloud Hosting,-24.99,EUR,Software
+2026-02-11,Coffee with client,Harbor Coffee,-9.20,EUR,
+2026-02-14,Refund: duplicate charge,Greenleaf Grocers,12.30,EUR,Groceries
+2026-02-20,Train ticket,Northline Rail,-46.00,EUR,Travel
+2026-02-28,Account fee,,-4.50,EUR,Bank fees
+2026-03-02,Invoice 2026-003 paid,Client Beta Studio,1750.50,EUR,Income
+2026-03-03,Coworking desk March,Lumen Coworking,-180.00,EUR,Rent
+2026-03-05,"Hosting plan, monthly",Pixelcloud Hosting,-24.99,EUR,Software
+2026-03-18,Groceries,Greenleaf Grocers,-71.15,EUR,Groceries
+2026-03-31,Account fee,,-4.50,EUR,Bank fees

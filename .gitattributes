@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Fixture CSVs are hashed byte for byte; never convert their line endings.
+fixtures/**/*.csv -text

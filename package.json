@@ -1,0 +1,41 @@
+{
+  "name": "ledger-mcp-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Deterministic finance tools for AI agents over your own CSV bank exports.",
+  "license": "MIT",
+  "author": "FolioFlux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folioflux/ledger-mcp.git"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.34.8",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "pnpm -r --workspace-concurrency=1 run build",
+    "typecheck": "pnpm build && tsc -p tsconfig.test.json",
+    "lint": "pnpm build && eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "golden:update": "UPDATE_GOLDEN=1 vitest run packages/ledger-core/test/golden.test.ts",
+    "demo": "node scripts/demo-stdio.mjs",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test",
+    "clean": "pnpm -r exec rm -rf dist *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.5",
+    "ajv": "^8.20.0",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vitest": "^5.0.5"
+  }
+}

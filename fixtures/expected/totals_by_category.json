@@ -1,0 +1,215 @@
+{
+  "input_hash": "66e963da02c8e712a00717a97436019681a3198c66eca62859130f7adf97fad6",
+  "query": {
+    "sign": "out",
+    "group_by": "category"
+  },
+  "groups": [
+    {
+      "key": "Bank fees",
+      "currency": "EUR",
+      "total": "-13.50",
+      "count": 3,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            6,
+            13,
+            18
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiQmFuayBmZWVzIn0sInF1ZXJ5Ijp7Imdyb3VwX2J5IjoiY2F0ZWdvcnkiLCJzaWduIjoib3V0In0sInRvb2wiOiJ0b3RhbHMifQ"
+    },
+    {
+      "key": "Groceries",
+      "currency": "EUR",
+      "total": "-134.55",
+      "count": 2,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            4,
+            17
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiR3JvY2VyaWVzIn0sInF1ZXJ5Ijp7Imdyb3VwX2J5IjoiY2F0ZWdvcnkiLCJzaWduIjoib3V0In0sInRvb2wiOiJ0b3RhbHMifQ"
+    },
+    {
+      "key": "Rent",
+      "currency": "EUR",
+      "total": "-540.00",
+      "count": 3,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            2,
+            8,
+            15
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiUmVudCJ9LCJxdWVyeSI6eyJncm91cF9ieSI6ImNhdGVnb3J5Iiwic2lnbiI6Im91dCJ9LCJ0b29sIjoidG90YWxzIn0"
+    },
+    {
+      "key": "Software",
+      "currency": "EUR",
+      "total": "-82.97",
+      "count": 4,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            3,
+            5,
+            9,
+            16
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiU29mdHdhcmUifSwicXVlcnkiOnsiZ3JvdXBfYnkiOiJjYXRlZ29yeSIsInNpZ24iOiJvdXQifSwidG9vbCI6InRvdGFscyJ9"
+    },
+    {
+      "key": "Software",
+      "currency": "GBP",
+      "total": "-87.00",
+      "count": 2,
+      "sources": [
+        {
+          "file": "birch-card.csv",
+          "rows": [
+            1,
+            6
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiU29mdHdhcmUifSwicXVlcnkiOnsiZ3JvdXBfYnkiOiJjYXRlZ29yeSIsInNpZ24iOiJvdXQifSwidG9vbCI6InRvdGFscyJ9"
+    },
+    {
+      "key": "Travel",
+      "currency": "EUR",
+      "total": "-46.00",
+      "count": 1,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            12
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiVHJhdmVsIn0sInF1ZXJ5Ijp7Imdyb3VwX2J5IjoiY2F0ZWdvcnkiLCJzaWduIjoib3V0In0sInRvb2wiOiJ0b3RhbHMifQ"
+    },
+    {
+      "key": "Travel",
+      "currency": "GBP",
+      "total": "-1020.40",
+      "count": 1,
+      "sources": [
+        {
+          "file": "birch-card.csv",
+          "rows": [
+            4
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6InRvdGFsIiwia2V5IjoiVHJhdmVsIn0sInF1ZXJ5Ijp7Imdyb3VwX2J5IjoiY2F0ZWdvcnkiLCJzaWduIjoib3V0In0sInRvb2wiOiJ0b3RhbHMifQ"
+    },
+    {
+      "key": null,
+      "currency": "EUR",
+      "total": "-51.85",
+      "count": 3,
+      "sources": [
+        {
+          "file": "alder-bank-current.csv",
+          "rows": [
+            10
+          ]
+        },
+        {
+          "file": "needs-mapping/dogwood-ambiguous-dates.csv",
+          "rows": [
+            2,
+            3
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJFVVIiLCJmaWVsZCI6InRvdGFsIiwia2V5IjpudWxsfSwicXVlcnkiOnsiZ3JvdXBfYnkiOiJjYXRlZ29yeSIsInNpZ24iOiJvdXQifSwidG9vbCI6InRvdGFscyJ9"
+    },
+    {
+      "key": null,
+      "currency": "GBP",
+      "total": "-11.60",
+      "count": 1,
+      "sources": [
+        {
+          "file": "birch-card.csv",
+          "rows": [
+            3
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJHQlAiLCJmaWVsZCI6InRvdGFsIiwia2V5IjpudWxsfSwicXVlcnkiOnsiZ3JvdXBfYnkiOiJjYXRlZ29yeSIsInNpZ24iOiJvdXQifSwidG9vbCI6InRvdGFscyJ9"
+    },
+    {
+      "key": null,
+      "currency": "PLN",
+      "total": "-150.00",
+      "count": 1,
+      "sources": [
+        {
+          "file": "cedar-savings.csv",
+          "rows": [
+            4
+          ]
+        }
+      ],
+      "ref": "fig1_eyJmaWd1cmUiOnsiY3VycmVuY3kiOiJQTE4iLCJmaWVsZCI6InRvdGFsIiwia2V5IjpudWxsfSwicXVlcnkiOnsiZ3JvdXBfYnkiOiJjYXRlZ29yeSIsInNpZ24iOiJvdXQifSwidG9vbCI6InRvdGFscyJ9"
+    }
+  ],
+  "files": [
+    {
+      "file": "alder-bank-current.csv",
+      "source_sha256": "912c6cbbdceb136f0fcce2706d8e78d9d0869ef59697de814150ea75b42bb723",
+      "status": "ok",
+      "mapping_id": "map_af85bc38848d5cce",
+      "transactions": 18,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "birch-card.csv",
+      "source_sha256": "ce6a1566d0771cad39db67396edecea4228b8364b06c398d7616d03b93d465fc",
+      "status": "ok",
+      "mapping_id": "map_1f038e8ebb3dac29",
+      "transactions": 6,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "cedar-savings.csv",
+      "source_sha256": "32e8476d950212db1e347a4a40ab2e1fe9aa6ed142b5d492bf549d3a4832d3b9",
+      "status": "ok",
+      "mapping_id": "map_9606ddf4a78c2639",
+      "transactions": 6,
+      "row_errors": 0,
+      "message": null
+    },
+    {
+      "file": "needs-mapping/dogwood-ambiguous-dates.csv",
+      "source_sha256": "9001d8b7f35d659ce51835dd4826dba8ec210f86f221c1d6dfc68a55011e3a13",
+      "status": "ok",
+      "mapping_id": "map_9471b53da84971f8",
+      "transactions": 3,
+      "row_errors": 0,
+      "message": null
+    }
+  ],
+  "row_errors": [],
+  "row_error_count": 0
+}
