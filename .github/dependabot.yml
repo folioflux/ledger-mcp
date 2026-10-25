@@ -9,6 +9,13 @@ updates:
       dev-dependencies:
         dependency-type: development
         update-types: [minor, patch]
+    ignore:
+      # typescript-eslint supports TypeScript < 6.1; update TypeScript majors by hand.
+      - dependency-name: typescript
+        update-types: [version-update:semver-major, version-update:semver-minor]
+      # Keep Node.js types on the oldest supported runtime major (Node.js 22).
+      - dependency-name: '@types/node'
+        update-types: [version-update:semver-major]
   - package-ecosystem: github-actions
     directory: /
     schedule:
