@@ -1,0 +1,46 @@
+{
+  "name": "@folioflux/transaction-schema",
+  "version": "0.1.0",
+  "description": "JSON Schema (draft 2020-12) and TypeScript types for a normalized bank transaction with provenance.",
+  "license": "MIT",
+  "author": "FolioFlux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folioflux/ledger-mcp.git",
+    "directory": "packages/transaction-schema"
+  },
+  "homepage": "https://github.com/folioflux/ledger-mcp/tree/main/packages/transaction-schema#readme",
+  "keywords": [
+    "json-schema",
+    "transaction",
+    "ledger",
+    "provenance",
+    "csv"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./transaction.schema.json": "./transaction.schema.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "transaction.schema.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "generate:check": "node scripts/generate.mjs --check",
+    "build": "pnpm run generate:check && tsc -b"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^16.0.0"
+  }
+}
