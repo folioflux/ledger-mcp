@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/folioflux/ledger-mcp/security/advisories/new
+    about: Please report security problems privately, not in a public issue.
+  - name: Other questions
+    url: mailto:hello@folioflux.com
+    about: Email the FolioFlux team.

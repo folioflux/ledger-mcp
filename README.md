@@ -1,5 +1,8 @@
 # ledger-mcp
 
+[![CI](https://github.com/folioflux/ledger-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/folioflux/ledger-mcp/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Deterministic finance tools for AI agents over your own CSV bank exports. Same answer twice, with the rows behind every number. Local and read-only.
 
 `ledger-mcp` is a [Model Context Protocol](https://modelcontextprotocol.io) server that runs on your machine over stdio. Point it at a folder of CSV exports from your bank or card provider and your MCP client gets five tools: `import_csv`, `list_transactions`, `totals`, `cashflow` and `explain`.
@@ -17,6 +20,8 @@ The engine does the math; the model only explains it. Every number is computed w
 - [Security](#security)
 - [Limitations](#limitations)
 - [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Quick start
 
@@ -251,12 +256,16 @@ pnpm demo           # scripted MCP session against the built server
 
 All sample data in this repository is synthetic. Please never commit real bank exports.
 
+## Contributing
+
+Bug reports and focused pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Please report security problems privately, as described in [SECURITY.md](SECURITY.md).
+
 ## License
 
-[MIT](LICENSE)
+Released under the [MIT License](LICENSE).
 
----
+## About
 
-Built by the FolioFlux team. FolioFlux is the AI finance workspace for freelancers, small teams and their accountants: https://folioflux.com
+Made by [FolioFlux](https://folioflux.com). Questions: [hello@folioflux.com](mailto:hello@folioflux.com). Security reports: [security@folioflux.com](mailto:security@folioflux.com).
 
-Not financial, tax, accounting or legal advice.
+Not financial, tax or legal advice.
