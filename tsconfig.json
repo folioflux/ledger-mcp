@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/transaction-schema" },
+    { "path": "packages/ledger-core" },
+    { "path": "packages/ledger-mcp" }
+  ]
+}
