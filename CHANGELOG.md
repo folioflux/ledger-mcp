@@ -6,6 +6,8 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ### Added
 
+- Verified totals quickstart using the pinned same-answer-twice source CLI, synthetic fixtures and real MCP stdio calls.
+
 - Security policy, contributing guide, code of conduct and issue templates.
 
 ### Changed

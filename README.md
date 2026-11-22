@@ -226,6 +226,10 @@ For the same CSV files and mappings, every tool returns the same bytes:
 
 The test suite checks this with repeated runs, shuffled inputs, golden files compared byte for byte, and the built server run under several time zones and locales.
 
+For a runnable cross-repo check against a known answer, see
+[Verify totals with same-answer-twice](docs/verified-totals.md). It checks totals,
+source rows and the input hash through real MCP stdio calls.
+
 ## Security
 
 - **Local.** The server runs on your machine and talks to your MCP client over stdio only. It opens no ports and makes no network requests; the test suite runs the built server with networking disabled and fails on any attempt.
